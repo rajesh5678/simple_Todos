@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description {
+  color: #000000;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.btn {
+  border: 2px solid #ff8542;
+  height: 30px;
+  width: 70px;
+  color: #000000;
+  font-family: Roboto;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 5px;
+}

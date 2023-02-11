@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  border: 3px solid #ff8542;
+  padding: 50px;
+}
+
+.simple-todos-container {
+  background-color: #ffffff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #ff8542;
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+}
